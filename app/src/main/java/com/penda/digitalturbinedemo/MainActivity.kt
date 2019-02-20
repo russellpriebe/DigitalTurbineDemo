@@ -12,8 +12,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
-    lateinit var viewModel: MainViewModel
-    val context: Context = this
+    private lateinit var viewModel: MainViewModel
+    private val context: Context = this
     var adList: ArrayList<Ad>? = ArrayList<Ad>()
 
 
